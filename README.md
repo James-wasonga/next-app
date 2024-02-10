@@ -3,6 +3,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Getting Started
 
 First, run the development server:
+``fist clone this the code into you machie first
+git clone ....
 
 ```bash
 npm run dev
