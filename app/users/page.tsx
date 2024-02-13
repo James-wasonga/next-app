@@ -5,6 +5,8 @@ const UsersPage = async () => {
   id:number;
   name:string;
   email:string;
+  country:string;
+
  }
 const res = await fetch('https://jsonplaceholder.typicode.com/users');
 const users: User[] = await res.json();
@@ -19,6 +21,7 @@ const users: User[] = await res.json();
     {users.map(user => <li key={user.id}>{user.name}</li>)}
     {users.map(user => <li key={user.name}>{user.name}</li>)}
     {users.map(user => <li key={user.email}>{user.name}</li>)}
+    {users.map(user => <li key={user.country}>{user.country}</li>)}
 
 
 
