@@ -17,7 +17,8 @@ const users: User[] = await res.json();
     <ul>
     
     {users.map(user => <li key={user.id}>{user.name}</li>)}
-   
+    {users.map(user => <li key={user.name}>{user.name}</li>)}
+    {users.map(user => <li key={user.email}>{user.name}</li>)}
 
 
 
